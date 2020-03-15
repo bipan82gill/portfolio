@@ -1,0 +1,40 @@
+.section-skills{
+    padding :20 rem, 0;
+    background-image: linear-gradient(to right bottom,
+     rgba(126, 213, 111, 0.8), rgba(40, 180, 131,0.8)), url(../images/nature-2-26-17.jpg);
+    height:100vh;
+    transform:skewY(-7deg);
+    margin-top:-10rem;
+    
+
+}
+.box-skills{
+    height:500px;
+    width: 90%;
+    transition: transition .3s;
+}
+.box-skills:hover{
+    transform:translateY(-1.7rem) scale(1.03);
+    
+}
+.row{
+    margin:0 auto;
+    margin-bottom: 8rem;
+    display:flex;
+    justify-content: space-evenly;
+    transform:skewY(7deg);
+    
+}
+img{
+    width:350px;
+    height:250px;
+    border-color :solid(white);
+    border-radius: 2px;
+    outline-offset: 2px;;
+}
+.section-skills{
+    border:2px;
+    border-color:rgba(rgb(0, 0, 0));
+    border-radius:2px;
+
+}
