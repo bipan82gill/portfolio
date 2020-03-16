@@ -17,13 +17,19 @@
     transform:translateY(-1.7rem) scale(1.03);
     
 }
-.row{
+.row-1{
     margin:0 auto;
     margin-bottom: 8rem;
     display:flex;
     justify-content: space-evenly;
     transform:skewY(7deg);
     
+}
+.row{
+    margin:0 auto;
+    margin-bottom: 8rem;
+    display:flex;
+    justify-content: space-evenly;
 }
 img{
     width:350px;
