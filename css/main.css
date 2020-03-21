@@ -38,9 +38,21 @@ padding: 25rem 0;
     background-color: white;  
     z-index:20;      
 }
-.card_side--back{
+.card_side--back-1{
     background-image:linear-gradient(to right bottom,
     rgba(177, 93, 236, 0.705), rgba(68, 8, 70, 0.842));
+    transform:rotateY(180deg);
+    z-index:10;  
+}
+.card_side--back-2{
+    background-image: linear-gradient(to right bottom,
+    rgba(39, 231, 183, 0.8), rgba(16, 81, 156, 0.8));
+    transform:rotateY(180deg);
+    z-index:10;  
+}
+.card_side--back-3{
+    background-image:linear-gradient(to right bottom,
+    rgba(172, 233, 60, 0.705), rgba(31, 155, 15, 0.753));
     transform:rotateY(180deg);
     z-index:10;  
 }
@@ -49,16 +61,25 @@ padding: 25rem 0;
     transform:rotateY(0);    
 }
 .card_picture{
-    background-size:cover;
-    height: 23rem;
-    background-blend-mode: screen;
+    background-size:100% 85%;
+    height: 40rem;
+    background-blend-mode:screen;
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .card_picture--1{
-    background-image:linear-gradient(to right bottom,
-    rgba(177, 93, 236, 0.705), rgba(68, 8, 70, 0.842)),
+    background-image:
+    url(../images/whereto.png);
+}
+.card_picture--2{
+    background-image:
     url(../images/project-2.png);
 }
+.card_picture--3{
+    background-image:
+    url(../images/burger.png);
+}
+
 .heading-secondary{
     font-size:4rem;
     text-transform: uppercase;
@@ -97,4 +118,53 @@ padding: 25rem 0;
 }
 .u-margin-bottom-8{
     margin-bottom: 8rem;
+}
+.card_heading{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:white;
+    position:absolute;
+    padding:1px;
+    text-align:right;
+    width:75%;
+}
+.card_heading-front{
+    bottom:5rem;
+    right:3rem;
+}
+.card_heading-back{
+ top:10rem;
+ left:10px;    
+}
+.card_heading_span{
+    padding: 1rem 1.5rem;
+}
+.card_heading_span-1{
+    background-image:linear-gradient(to right bottom,
+    rgba(177, 93, 236,.85), rgba(68, 8, 70,.85));
+}
+.card_heading_span-2{
+    background-image: linear-gradient(to right bottom,
+    rgba(39, 231, 183, 0.8), rgba(16, 81, 156, 0.8));
+}
+.card_heading_span-3{
+    background-image:linear-gradient(to right bottom,
+    rgba(172, 233, 60, 0.705), rgba(31, 155, 15, 0.753));
+}
+.card_detail{
+    padding-top:10rem;
+    padding-left:3rem;
+}
+ul{
+    list-style: none;
+    margin:5rem auto;
+    text-decoration:none;
+    color: ivory;
+}
+li{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+
 }
