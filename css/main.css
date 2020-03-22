@@ -1,19 +1,8 @@
-.section-about{
-background-color: #f3efef;
-margin-top:-20vh;
-padding: 25rem 0;
-
-}
-
-.section-project{
-    background-color: #f3efef;
-    margin-top:-10vh;
-    padding: 25rem 0 0 10rem;
-}
 .card{
     perspective: 150rem;
     -moz-perspective: 150rem;
     position:relative;
+    height:50rem;
     
 }
 .card_side{
