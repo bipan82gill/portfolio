@@ -65,3 +65,35 @@
     visibility: hidden;
     transform:translateY(-4rem);
 }
+.footer{
+    background-color: #333;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+}
+.footer_list{
+    list-style: none;
+}
+.footer_item,
+.footer_item:not(:last-child){
+    display:inline-block;
+    margin-right:1.5rem;
+}
+.footer_links,
+.footer_links:visited{
+    color:#f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer_links:hover,
+.footer_links:active{
+    color:rgba(20, 131, 62, 0.753);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0,.4);
+    display:inline-block;
+    font-weight: 700;
+
+}
+.footer_navigation{
+    border-top: 1px solid #777;
+    padding:2rem;
+    display:inline-block;
+}
