@@ -23,16 +23,25 @@
     display:flex;
     justify-content: space-evenly;
     transform:skewY(7deg);
-    
+   
 }
 .row{
     margin:0 auto;
-    width:1000px;
+    width:800px;
     margin-left:22rem;
     margin-bottom: 8rem;
     display:flex;
     justify-content:space-between;
     align-items:center;
+    @media screen and (max-width:600px) /* 600px */
+    {
+    width:100%vh;
+    margin :0;
+    
+    dispaly:flex;
+    flow-direction:column;       
+    }
+    
 }
 img{
     width:350px;

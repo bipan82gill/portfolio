@@ -59,6 +59,10 @@ display:none;
     color:rgba(81, 175, 64);
     transform:translateX(1rem);
 }
+.navigation_links:active~ .navigation_nav{
+       transform:scale(0);
+    
+}
 .navigation_nav{
     height:100vh;
     width:100%;
